@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Positivus Landing Page</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- DaisyUI Plugin (Optional) -->
+  <script>
+    tailwind.config = {
+      plugins: [daisyui],
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/daisyui"></script>
+</head>
+<body class="font-sans bg-white text-gray-900">
+  
+  <!--navbar here -->
+  <!-- Navbar -->
+<header class="px-6 py-4 flex justify-between items-center">
+    <!-- Logo -->
+    <div class="flex items-center space-x-2">
+      <img src="images/logo-big.png" alt="Logo" class="h-8">
+    </div>
+  
+    <!-- Desktop Menu -->
+    <nav class="hidden md:flex space-x-6">
+      <a href="#" class="hover:underline">About us</a>
+      <a href="#" class="hover:underline">Services</a>
+      <a href="#" class="hover:underline">Use Cases</a>
+      <a href="#" class="hover:underline">Pricing</a>
+      <a href="#" class="hover:underline">Blog</a>
+    </nav>
+  
+    <!-- Contact Button -->
+    <div class="hidden md:block">
+      <button class="btn btn-outline btn-sm rounded-full">Request a Quote</button>
+    </div>
+  
+    <!-- Mobile Menu Icon -->
+    <div class="md:hidden">
+      <img src="images/menu.png" alt="Menu" class="h-6">
+    </div>
+  </header>
+  
+
+</body>
+</html>
